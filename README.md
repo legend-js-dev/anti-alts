@@ -27,6 +27,13 @@ A bot to prevent alt accounts from joining your discord server.
 #### Example: `bypass-alt add 743767109817073664`
 ```
 ```
+# How to run the bot
+- Go to `config.json`
+- add your bot token and prefix there
+- `npm init -y`
+- `npm install`
+- `node .`
+- Enjoy!
 # Things to do
 - Join Devs Hub
 - Leave command / bot ideas in main-chat (in devs hub)
