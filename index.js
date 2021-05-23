@@ -66,7 +66,6 @@ client.on('guildMemberAdd', async member => {
 				`Account Age`,
 				client.decodeMs(Date.now() - user.createdTimestamp)
 			)
-      .addField(`Cock size`, "12 cm")
       .addField(`Punishment`, punishment)
 			.setColor('#FF0000')
 			.setFooter(
