@@ -59,7 +59,7 @@ module.exports = {
 					let newEmbed = new Discord.MessageEmbed()
 						.setDescription(pages[page].join('\n'))
 						.setFooter(
-							`Page ${page + 1} of ${pages.length} (${alts.length} entries)` + " | Made by ant#0768 & LΣGΣПD#0001"
+							`Page ${page + 1} of ${pages.length} (${alts.length} entries)` + " | Made by ant#0768 & legendjs#0001"
 						)
 						.setColor('RANDOM');
 					msg.edit(newEmbed);
@@ -79,7 +79,7 @@ module.exports = {
 					let newEmbed = new Discord.MessageEmbed()
 						.setDescription(pages[page].join('\n'))
 						.setFooter(
-							`Page ${page + 1} of ${pages.length} (${alts.length} entries)` + " | Made by ant#0768 & LΣGΣПD#0001"
+							`Page ${page + 1} of ${pages.length} (${alts.length} entries)` + " | Made by ant#0768 & legendjs#0001"
 						)
 						.setColor('RANDOM');
 					msg.edit(newEmbed);
