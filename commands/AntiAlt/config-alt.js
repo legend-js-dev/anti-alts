@@ -76,7 +76,7 @@ module.exports = {
 					)
 					.setColor('RANDOM')
 					.setFooter(
-						message.guild.name + " | Made by ant#0768 & LΣGΣПD#0001",
+						message.guild.name + " | Made by ant#0768 & legendjs#0001",
 						message.guild.iconURL({ dynamic: true })
 					);
 				return message.channel.send({ embed: embed });
