@@ -10,7 +10,7 @@ const db = require('quick.db');
 client.loadCommands();
 
 console.log('-------------------------------------');
-console.log('[CREDITS]: made by ant#0768 & LΣGΣПD#0001');
+console.log('[CREDITS]: made by ant#0768 & legendjs#0001');
 console.log('-------------------------------------');
 
 client.on('ready', () => {
@@ -21,7 +21,7 @@ client.on('ready', () => {
 		} channels & ${client.users.cache.size} users`
 	);
 	console.log('-------------------------------------');
-	client.user.setActivity('AntiAlt bot by ant and legend :D', {
+	client.user.setActivity('AntiAlt bot by ant and legendjs :D', {
 		type: 'WATCHING'
 	});
 });
@@ -69,7 +69,7 @@ client.on('guildMemberAdd', async member => {
       .addField(`Punishment`, punishment)
 			.setColor('#FF0000')
 			.setFooter(
-				guild.name + ' | Made by ant#0768 & LΣGΣПD#0001',
+				guild.name + ' | Made by ant#0768 & legendjs#0001',
 				guild.iconURL({ dynamic: true })
 			);
 		if (channel) channel.send({ embed: embed });
