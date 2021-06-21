@@ -1,7 +1,7 @@
 # Anti Alt
 A bot to prevent alt accounts from joining your discord server.
 # Info & Credits
-- This bot was made by [ant#0768](https://github.com/ImAnt312) and [LΣGΣПD#0001](https://github.com/legend-js-dev)
+- This bot was made by [ant#0768](https://github.com/ImAnt312) and [legendjs#0001](https://github.com/legend-js-dev)
 - If you use this code and / or make a video on it without credits, your video/bot will be taken down
 # Discord servers to join
 - [Developers Hub](https://discord.gg/P9Gmsnjffq)
