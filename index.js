@@ -51,8 +51,8 @@ client.on('guildMemberAdd', async member => {
 	let age = db.get(`age.${guild.id}`);
 	let logs = db.get(`logs.${guild.id}`);
 	let punishment = db.get(`punishment.${guild.id}`);
-	let bypassed = db.get(`bypass.${guild.id}`) 
-	if (bypassed.includes(user.id)) return;
+	let bypassed = db.get(`bypass.${guild.id}`);
+	if (bypassed && bypassed.includes(user.id)) return;
 	if (Date.now() - user.createdTimestamp > age) {
 		member[punishment](
 			`Alt detected - Account younger than ${client.decodeMs(age)}`
